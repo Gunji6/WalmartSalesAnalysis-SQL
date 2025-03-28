@@ -79,32 +79,32 @@ To enhance the dataset, new columns were generated:
 ## **Key Business Insights**
 
 ### **General Information**
-✅ How many cities are represented in the dataset?
-✅ In which cities are Walmart branches located?
+- How many cities are represented in the dataset?
+- In which cities are Walmart branches located?
 
 ### **Product Insights**
-✅ Number of unique **product lines** available.
-✅ Most frequently used **payment methods**.
-✅ **Top-selling** product line and those needing improvement.
-✅ **Highest revenue-generating** product line.
-✅ Branches with **above-average product sales**.
-✅ VAT (Value-Added Tax) distribution among product lines.
-✅ Gender distribution in product purchases.
-✅ **Average customer ratings** per product category.
+- Number of unique **product lines** available.
+- Most frequently used **payment methods**.
+- **Top-selling** product line and those needing improvement.
+- **Highest revenue-generating** product line.
+- Branches with **above-average product sales**.
+- VAT (Value-Added Tax) distribution among product lines.
+- Gender distribution in product purchases.
+- **Average customer ratings** per product category.
 
 ### **Sales Performance Analysis**
-✅ Sales distribution by **time of day (Morning, Afternoon, Evening)**.
-✅ **Customer segment that contributes most to revenue**.
-✅ City with the **highest tax percentage (VAT)**.
-✅ Customer types that pay the highest VAT.
+- Sales distribution by **time of day (Morning, Afternoon, Evening)**.
+- **Customer segment that contributes most to revenue**.
+- City with the **highest tax percentage (VAT)**.
+- Customer types that pay the highest VAT.
 
 ### **Customer Behavior Insights**
-✅ Number of **unique customer types**.
-✅ Gender-based customer distribution.
-✅ **Most preferred payment method**.
-✅ **Most common customer type**.
-✅ Purchasing behavior by **time of day and day of the week**.
-✅ Relationship between **customer ratings and sales periods**.
+- Number of **unique customer types**.
+- Gender-based customer distribution.
+- **Most preferred payment method**.
+- **Most common customer type**.
+- Purchasing behavior by **time of day and day of the week**.
+- Relationship between **customer ratings and sales periods**.
 
 ---
 
@@ -114,19 +114,3 @@ To enhance the dataset, new columns were generated:
 - **Window Functions** – Used RANK(), DENSE_RANK() to find top-performing products.
 - **Case Statements** – Categorized sales time and customer segments.
 - **CTEs (Common Table Expressions)** – Created reusable queries for complex analysis.
-
----
-
-## **Tech Stack**
-🔹 **SQL (MySQL/PostgreSQL)** – Data retrieval and analysis  
-🔹 **Python (Pandas, Matplotlib, Seaborn)** – Visualization and further analysis  
-🔹 **Excel** – Exploratory analysis and trend identification  
-
----
-
-## **Future Enhancements**
-🚀 **Predictive Analysis** – Implement machine learning models to forecast sales.  
-🚀 **Customer Segmentation Model** – Use clustering techniques to better target customer groups.  
-🚀 **Dashboard Development** – Create an **interactive Power BI/Tableau dashboard** for real-time sales tracking.  
-
-This project provides **valuable business insights** into Walmart's sales data, helping optimize **marketing strategies, inventory management, and customer engagement**. 🚀
